@@ -27,12 +27,12 @@ function distanceTravelledInFeet(travel, distance) {
 }
 
 function calculatesFarePrice (start, destination) {
-    let ride = distanceFromHqInFeet(start, destination)
+    let ride = distanceTravelledInFeet(start, destination)
     let price
     if (ride <= 400){ 
         price = 0;
     } else if (ride > 400 && ride <= 2000) {
-        price = (ride - 400) *.02;
+        price = (ride - 400) * .02;
     } else if (ride > 2000 && ride <= 2500) {
         price = 25;
     } else {
@@ -40,3 +40,5 @@ function calculatesFarePrice (start, destination) {
     }
     return price 
 }
+
+calculatesFarePrice (34, 32)

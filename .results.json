@@ -2,19 +2,19 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 11,
+    "passes": 13,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-02-04T09:32:00.583Z",
-    "end": "2022-02-04T09:32:00.875Z",
-    "duration": 292
+    "failures": 0,
+    "start": "2022-02-04T20:54:40.135Z",
+    "end": "2022-02-04T20:54:40.462Z",
+    "duration": 327
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -104,26 +104,10 @@
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 2.56",
-        "showDiff": true,
-        "actual": "25",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 25 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 25 to equal 2.56",
-            "showDiff": true,
-            "actual": "25",
-            "expected": "2.56",
-            "multiple": "AssertionError: expected 25 to equal 2.56",
-            "stack": "AssertionError: expected 25 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     },
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
@@ -138,87 +122,20 @@
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 'cannot travel that far'",
-        "showDiff": true,
-        "actual": 25,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 25 to equal 'cannot travel that far'",
-            "showDiff": true,
-            "actual": 25,
-            "expected": "cannot travel that far",
-            "multiple": "AssertionError: expected 25 to equal 'cannot travel that far'",
-            "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
+      "speed": "fast",
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 2.56",
-        "showDiff": true,
-        "actual": "25",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 25 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 25 to equal 2.56",
-            "showDiff": true,
-            "actual": "25",
-            "expected": "2.56",
-            "multiple": "AssertionError: expected 25 to equal 2.56",
-            "stack": "AssertionError: expected 25 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 'cannot travel that far'",
-        "showDiff": true,
-        "actual": 25,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:464:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 25 to equal 'cannot travel that far'",
-            "showDiff": true,
-            "actual": 25,
-            "expected": "cannot travel that far",
-            "multiple": "AssertionError: expected 25 to equal 'cannot travel that far'",
-            "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:464:21)"
-          }
-        ]
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -305,8 +222,26 @@
       "err": {}
     },
     {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "file": "/home/whathefunnn/phase-1/phase-1-functions-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
